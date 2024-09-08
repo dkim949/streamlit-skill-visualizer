@@ -103,9 +103,28 @@ with bottom_left:
     st.markdown("<h2 class='sub-header'>Key Projects</h2>", unsafe_allow_html=True)
     projects = [
         {
-            "name": "Delivery ETA Prediction",
-            "description": "Developed a machine learning model to predict delivery ETA with 85% accuracy.",
-            "skills": ["Python", "scikit-learn", "TensorFlow", "PyTorch"],
+            "name": "Delivery Time Estimation Model",
+            "description": "Developed a machine learning model designed to predict delivery times in a high-volume, time-sensitive environment such as food delivery services. The goal was to improve operational efficiency and enhance customer satisfaction by providing more accurate delivery time estimates.",
+            "skills": [
+                "Python",
+                "scikit-learn",
+                "TensorFlow",
+                "PyTorch",
+                "Gradient Boosting",
+                "Random Forest",
+                "Custom Loss Function",
+                "Real-Time Data Handling",
+                "Feature Engineering",
+                "Model Optimization",
+                "Inductive Bias via Multi-Task Learning",
+                "Exploratory Data Analysis",
+                "Stakeholder Engagement",
+            ],
+        },
+        {
+            "name": "Anomaly Detection in Transactional Data",
+            "description": "Developed an integrated system to detect anomalies in transactional data for a food delivery service.",
+            "skills": ["Python", "Statistical Forecasting", "Data Visualization"],
         },
         {
             "name": "Customer Churn Prediction",
@@ -113,9 +132,21 @@ with bottom_left:
             "skills": ["Python", "scikit-learn", "Tableau"],
         },
         {
-            "name": "Real-time Fraud Detection",
-            "description": "Implemented a real-time fraud detection system using Spark Streaming and Machine Learning.",
-            "skills": ["PySpark", "MLlib", "AWS"],
+            "name": "Comic Book Recommendation System",
+            "description": "Developed a recommendation system for a newly launched mobile webtoon service.",
+            "skills": ["Python", "LightFM", "Collaborative Filtering"],
+        },
+        {
+            "name": "Customer Lifetime Value Analysis & Segmentation",
+            "description": "This project supports marketing decision-making through in-depth customer lifetime value analysis and segmentation. The goal was to identify key customer segments and optimize marketing strategies accordingly.",
+            "skills": [
+                "Python",
+                "R",
+                "Scikit-learn",
+                "Clustering",
+                "Classification",
+                "Tableau",
+            ],
         },
         {
             "name": "Inverse Cooking: Recipe Generation from Food Images",
