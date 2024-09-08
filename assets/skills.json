@@ -32,11 +32,11 @@
       "tools": ["YOLO", "CLIP"]
     },
     "XAI": {
-      "level": 5,
+      "level": 6,
       "tools": ["LIME", "SHAP", "causalinference", "EconML"]
     },
     "Big Data": {
-      "level": 6,
+      "level": 5,
       "tools": ["Spark", "Hadoop"]
     },
     "MLOps/DevOps": {
