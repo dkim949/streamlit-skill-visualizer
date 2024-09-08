@@ -1,0 +1,36 @@
+{
+    "Programming": {
+        "Python/PySpark": 9,
+        "SQL": 8,
+        "R": 7,
+        "Scala": 6
+    },
+    "Data Visualization": {
+        "Tableau": 8,
+        "Redash": 7,
+        "Matplotlib/Seaborn/ggplot": 7
+    },
+    "Machine Learning & Statistical Modeling": {
+        "Predictive Modeling": 8,
+        "Anomaly Detection": 9,
+        "User Analysis": 8,
+        "Business Intelligence": 7
+    },
+    "ETL & Big Data": {
+        "Apache Zeppelin": 7,
+        "Spark": 8,
+        "Airflow": 8,
+        "Kafka": 7,
+        "Hive": 7
+    },
+    "Project Management": {
+        "Agile/Scrum": 7,
+        "MLOps": 8,
+        "JIRA": 7
+    },
+    "Languages": {
+        "English": 9,
+        "Korean": 10,
+        "Japanese": 7
+    }
+}
