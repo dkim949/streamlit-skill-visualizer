@@ -20,7 +20,7 @@
       "tools": ["Tableau", "Matplotlib", "Seaborn", "folium", "Plotly", "D3.js"]
     },
     "Recommendation System": {
-      "level": 6,
+      "level": 5,
       "tools": ["Surprise", "LightFM", "TensorFlow"]
     },
     "Natural Language Processing": {
