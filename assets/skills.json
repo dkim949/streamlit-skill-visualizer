@@ -1,0 +1,46 @@
+{
+    "ML/DL": {
+      "level": 9,
+      "tools": ["scikit-learn", "TensorFlow", "Keras", "PyTorch", "PyTorch Lightning", "XGBoost", "LightGBM", "CatBoost"]
+    },
+    "Statistics": {
+      "level": 8,
+      "tools": ["scikit-learn", "statsmodels"]
+    },
+    "Time Series Analysis": {
+      "level": 7,
+      "tools": ["statsmodels", "pmdarima", "arch", "tensorflow-ts", "sktime", "prophet"]
+    },
+    "Programming": {
+      "level": 8,
+      "tools": ["Python", "SQL", "Scala", "R"]
+    },
+    "Data Visualization": {
+      "level": 9,
+      "tools": ["Tableau", "Matplotlib", "Seaborn", "Plotly", "D3.js"]
+    },
+    "Natural Language Processing": {
+      "level": 7,
+      "tools": ["Conventional NLP", "LangChain", "Large Language Models"]
+    },
+    "Computer Vision": {
+      "level": 3,
+      "tools": ["OpenCV", "YOLO", "CLIP"]
+    },
+    "Big Data": {
+      "level": 6,
+      "tools": ["Spark", "Hadoop"]
+    },
+    "MLOps/DevOps": {
+      "level": 6,
+      "tools": ["Docker", "GitLab CI/CD", "Airflow", "Kubernetes"]
+    },
+    "Cloud Platforms": {
+      "level": 4,
+      "tools": ["AWS", "GCP"]
+    },
+    "Project Management": {
+      "level": 6,
+      "tools": ["Scrum", "Kanban", "JIRA", "Trello"]
+    }
+  }

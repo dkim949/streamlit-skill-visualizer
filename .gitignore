@@ -1,5 +1,5 @@
 # Ignore skills.json file
-assets/skills.json
+# assets/skills.json
 
 # Ignore Python cache files
 __pycache__/
