@@ -1,6 +1,7 @@
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
+import json
 
 st.set_page_config(layout="wide", page_title="Dongin Kim - Data Science Portfolio")
 
@@ -39,51 +40,21 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# 스킬 데이터 정의
-skills = {
-    "ML/DL": {
-        "level": 9,
-        "tools": [
-            "scikit-learn",
-            "TensorFlow",
-            "Keras",
-            "PyTorch",
-            "PyTorch Lightning",
-            "XGBoost",
-            "LightGBM",
-            "CatBoost",
-        ],
-    },
-    "Statistics": {"level": 8, "tools": ["scikit-learn", "statsmodels"]},
-    "Time Series Analysis": {
-        "level": 7,
-        "tools": [
-            "statsmodels",
-            "pmdarima",
-            "arch",
-            "tensorflow-ts",
-            "sktime",
-            "prophet",
-        ],
-    },
-    "Programming": {"level": 8, "tools": ["Python", "SQL", "Scala", "R"]},
-    "Data Visualization": {
-        "level": 9,
-        "tools": ["Tableau", "Matplotlib", "Seaborn", "Plotly", "D3.js"],
-    },
-    "Natural Language Processing": {
-        "level": 7,
-        "tools": ["Conventional NLP", "LangChain", "Large Language Models"],
-    },
-    "Computer Vision": {"level": 3, "tools": ["OpenCV", "YOLO", "CLIP"]},
-    "Big Data": {"level": 6, "tools": ["Spark", "Hadoop"]},
-    "MLOps/DevOps": {
-        "level": 6,
-        "tools": ["Docker", "GitLab CI/CD", "Airflow", "Kubernetes"],
-    },
-    "Cloud Platforms": {"level": 4, "tools": ["AWS", "GCP"]},
-    "Project Management": {"level": 6, "tools": ["Scrum", "Kanban", "JIRA", "Trello"]},
-}
+
+# Load skills from JSON file
+def load_skills():
+    try:
+        with open("./assets/skills.json", "r") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        st.error(
+            "skills.json file not found. Please create this file with your skills data."
+        )
+        return {}
+
+
+# 스킬 데이터 로드
+skills = load_skills()
 
 # 상단 두 열로 나누기
 top_left, top_right = st.columns(2)
