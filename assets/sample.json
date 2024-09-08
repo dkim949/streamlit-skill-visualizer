@@ -1,0 +1,14 @@
+{
+    "Data Analysis": {
+      "level": 8,
+      "tools": ["Pandas", "NumPy", "SQL"]
+    },
+    "Data Visualization": {
+      "level": 7,
+      "tools": ["Matplotlib", "Seaborn", "Tableau"]
+    },
+    "Programming": {
+      "level": 8,
+      "tools": ["Python", "R", "Java"]
+    }
+  }
