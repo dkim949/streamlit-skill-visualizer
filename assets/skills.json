@@ -29,7 +29,7 @@
     },
     "Computer Vision": {
       "level": 3,
-      "tools": ["OpenCV", "YOLO", "CLIP"]
+      "tools": ["YOLO", "CLIP"]
     },
     "Big Data": {
       "level": 6,
